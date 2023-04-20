@@ -56,7 +56,7 @@ class CandleSticksStyle {
   }) {
     return CandleSticksStyle(
       borderColor: borderColor ?? Color(0xFF848E9C),
-      background: background ?? Color(0xFF191B20),
+      background: background ?? Color.fromARGB(255, 3, 6, 13),
       primaryBull: primaryBull ?? Color(0xFF26A69A),
       secondaryBull: secondaryBull ?? Color(0xFF005940),
       primaryBear: primaryBear ?? Color(0xFFEF5350),
@@ -68,7 +68,7 @@ class CandleSticksStyle {
       mobileCandleHoverColor:
           mobileCandleHoverColor ?? Color(0xFFF0B90A).withOpacity(0.2),
       loadingColor: loadingColor ?? Color(0xFFF0B90A),
-      toolBarColor: toolBarColor ?? Color(0xFF191B20),
+      toolBarColor: toolBarColor ?? Color.fromARGB(255, 2, 3, 6),
     );
   }
 
