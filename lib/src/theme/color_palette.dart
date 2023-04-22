@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class DarkColorPalette {
   static const grayColor = Color(0xFF848E9C);
-  static const background = Color(0xFF191B20);
+  static const background = Color.fromARGB(255, 1, 1, 3);
   static const primaryGreen = Color(0xFF26A69A);
   static const secondaryGreen = Color(0xFF005940);
   static const primaryRed = Color(0xFFEF5350);

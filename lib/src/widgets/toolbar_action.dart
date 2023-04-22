@@ -21,7 +21,7 @@ class ToolBarAction extends StatelessWidget {
       height: 30,
       child: RawMaterialButton(
         elevation: 0,
-        fillColor: Theme.of(context).background,
+        fillColor: Color.fromARGB(255, 2, 4, 6),
         onPressed: onPressed,
         child: Center(child: child),
       ),
