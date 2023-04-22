@@ -17,6 +17,7 @@ class ToolBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+		width: double.infinity,
       color: Theme.of(context).background,
       child: Padding(
         padding: const EdgeInsets.all(2.0),
