@@ -353,7 +353,7 @@ class _MobileChartState extends State<MobileChart> {
                             : null,
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(right: 1, bottom: 20),
+                        padding: const EdgeInsets.only(right: 50, bottom: 20),
                         child: GestureDetector(
                           onLongPressEnd: (_) {
                             setState(() {
