@@ -11,7 +11,7 @@ extension MultiThemeColorExtension on ThemeData {
 
   Color get background => brightness == Brightness.light
       ? LightColorPalette.background
-      : DarkColorPalette.background;
+      : Color.fromARGB(255, 6, 6, 16);
 
   Color get primaryGreen => brightness == Brightness.light
       ? LightColorPalette.primaryGreen
